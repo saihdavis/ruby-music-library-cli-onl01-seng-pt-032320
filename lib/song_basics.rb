@@ -51,7 +51,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-   #   mp3_removed = filename.gsub('.mp3', '')
+     mp3_removed = filename.gsub('.mp3', '')
     #  artist = mp3_removed.split(" - ")[0]
      # song = mp3_removed.split(" - ")[1]
       #genre = mp3_removed.split(" - ")[1]
